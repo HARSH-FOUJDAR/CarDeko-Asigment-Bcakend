@@ -11,7 +11,8 @@ const cars = [
     fuelType: "petrol",
     transmission: "manual",
     year: 2024,
-    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500",
+    image:
+      "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=400&h=300&fit=crop",
   },
   {
     name: "Baleno",
@@ -71,7 +72,8 @@ const cars = [
     fuelType: "petrol",
     transmission: "automatic",
     year: 2024,
-    image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=500",
+    image:
+      "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=400&h=300&fit=crop",
   },
   {
     name: "Fortuner",
@@ -81,7 +83,8 @@ const cars = [
     fuelType: "diesel",
     transmission: "automatic",
     year: 2024,
-    image: "https://images.unsplash.com/photo-1502877338535-761e1e57705e?w=500",
+    image:
+      "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=400&h=300&fit=crop",
   },
   {
     name: "Scorpio",
@@ -101,7 +104,8 @@ const cars = [
     fuelType: "petrol",
     transmission: "manual",
     year: 2024,
-    image: "https://images.unsplash.com/photo-1542362567-b07e543ad80d?w=500",
+    image:
+      "https://images.unsplash.com/photo-1569163139394-de4798aa62b2?w=400&h=300&fit=crop",
   },
   {
     name: "Venue",
@@ -111,7 +115,8 @@ const cars = [
     fuelType: "petrol",
     transmission: "manual",
     year: 2024,
-    image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b9?w=500",
+    image:
+      "https://images.unsplash.com/photo-1608339747319-f05da8b8a4aa?w=400&h=300&fit=crop",
   },
   {
     name: "Dzire",
@@ -131,7 +136,8 @@ const cars = [
     fuelType: "petrol",
     transmission: "automatic",
     year: 2024,
-    image: "https://images.unsplash.com/photo-1553440865-4a423c8d5e28?w=500",
+    image:
+      "https://images.unsplash.com/photo-1590362891990-f8001e4e3807?w=400&h=300&fit=crop",
   },
   {
     name: "XUV700",
