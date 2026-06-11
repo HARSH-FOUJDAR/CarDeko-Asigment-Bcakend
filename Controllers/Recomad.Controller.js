@@ -1,5 +1,6 @@
 const Car = require("../models/Car");
 
+
 exports.getCars = async (req, res) => {
   try {
     const { budget, brand, fuelType, transmission, bodyType } = req.query;

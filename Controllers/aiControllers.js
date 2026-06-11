@@ -1,5 +1,6 @@
 const Car = require("../models/Car");
 
+
 exports.getRecommendation = async (req, res) => {
   try {
     const { budget, fuelType } = req.body;
