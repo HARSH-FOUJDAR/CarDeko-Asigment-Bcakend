@@ -1,0 +1,28 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data & dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Local environment variables and secrets (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+*.pem
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
