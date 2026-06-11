@@ -4,7 +4,7 @@ const router = express.Router();
 
 const {
   getRecommendation,
-} = require("../controllers/aiControllers");
+} = require("../Controllers/aiControllers");
 
 router.post("/recommend", getRecommendation);
 
