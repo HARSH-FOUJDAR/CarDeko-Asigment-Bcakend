@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Car = require("./models/Car");
+const Car = require("./Models/Car");
 require("dotenv").config();
 
 const cars = [

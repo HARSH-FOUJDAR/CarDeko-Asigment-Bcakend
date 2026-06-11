@@ -1,4 +1,4 @@
-const Car = require("../models/Car");
+const Car = require("../Models/Car");
 
 
 exports.getRecommendation = async (req, res) => {
