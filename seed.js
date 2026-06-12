@@ -8,7 +8,7 @@ const cars = [
     brand: "maruti",
     price: 649000,
     bodyType: "hatchback",
-    fuelType: "petrol",
+    fuelType: "diesel",
     transmission: "manual",
     year: 2024,
     image:
@@ -1238,6 +1238,1168 @@ const cars = [
     transmission: "automatic",
     year: 2024,
     image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b9?w=500",
+  },
+  {
+    name: "Tata Nexon",
+    brand: "tata",
+    price: 1200000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Harrier",
+    brand: "tata",
+    price: 1950000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1619551180392-557fd310a790?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Safari",
+    brand: "tata",
+    price: 2100000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Punch",
+    brand: "tata",
+    price: 750000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Altroz",
+    brand: "tata",
+    price: 850000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Tiago",
+    brand: "tata",
+    price: 600000,
+    bodyType: "hatchback",
+    fuelType: "cng",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- MARUTI SUZUKI ---
+  {
+    name: "Maruti Suzuki Brezza",
+    brand: "maruti",
+    price: 1100000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Swift",
+    brand: "maruti",
+    price: 750000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Baleno",
+    brand: "maruti",
+    price: 850000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Ertiga",
+    brand: "maruti",
+    price: 1050000,
+    bodyType: "muv",
+    fuelType: "cng",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Grand Vitara",
+    brand: "maruti",
+    price: 1450000,
+    bodyType: "suv",
+    fuelType: "hybrid",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Dzire",
+    brand: "maruti",
+    price: 800000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Fronx",
+    brand: "maruti",
+    price: 950000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Jimny",
+    brand: "maruti",
+    price: 1300000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- HYUNDAI ---
+  {
+    name: "Hyundai Creta",
+    brand: "hyundai",
+    price: 1500000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai i20",
+    brand: "hyundai",
+    price: 900000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Verna",
+    brand: "hyundai",
+    price: 1400000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Venue",
+    brand: "hyundai",
+    price: 1050000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1549247796-5d8f09e9034b?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Alcazar",
+    brand: "hyundai",
+    price: 1800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Exter",
+    brand: "hyundai",
+    price: 750000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1632245889029-e406faaa34cd?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- MAHINDRA ---
+  {
+    name: "Mahindra Scorpio-N",
+    brand: "mahindra",
+    price: 1800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1626847037657-fd3622613ce3?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra XUV700",
+    brand: "mahindra",
+    price: 2200000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra Thar",
+    brand: "mahindra",
+    price: 1500000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra Bolero Neo",
+    brand: "mahindra",
+    price: 1050000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1617056417730-84cc4ff6f0c4?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra XUV 3XO",
+    brand: "mahindra",
+    price: 900000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- KIA ---
+  {
+    name: "Kia Seltos",
+    brand: "kia",
+    price: 1600000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1625217527288-93919c99650a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Kia Sonet",
+    brand: "kia",
+    price: 1100000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1562141960-c1576a5f6b2e?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Kia Carens",
+    brand: "kia",
+    price: 1400000,
+    bodyType: "muv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Kia EV6",
+    brand: "kia",
+    price: 6100000,
+    bodyType: "suv",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- TOYOTA ---
+  {
+    name: "Toyota Fortuner",
+    brand: "toyota",
+    price: 3800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1551522435-a13afa10f103?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Innova Hycross",
+    brand: "toyota",
+    price: 2600000,
+    bodyType: "muv",
+    fuelType: "hybrid",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Urban Cruiser Taisor",
+    brand: "toyota",
+    price: 1050000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1655821888788-6107699e173b?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Glanza",
+    brand: "toyota",
+    price: 800000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1611245451610-8bd59d18b4ba?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Hilux",
+    brand: "toyota",
+    price: 3500000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- HONDA ---
+  {
+    name: "Honda City",
+    brand: "honda",
+    price: 1350000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Honda Amaze",
+    brand: "honda",
+    price: 850000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1631241996155-734a71387d8a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Honda Elevate",
+    brand: "honda",
+    price: 1450000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- SKODA & VOLKSWAGEN ---
+  {
+    name: "Skoda Kushaq",
+    brand: "skoda",
+    price: 1400000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Skoda Slavia",
+    brand: "skoda",
+    price: 1350000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Skoda Kodiaq",
+    brand: "skoda",
+    price: 3900000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Volkswagen Taigun",
+    brand: "volkswagen",
+    price: 1450000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1669023026367-3c35bdf8bc9b?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Volkswagen Virtus",
+    brand: "volkswagen",
+    price: 1500000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- MG & OTHERS ---
+  {
+    name: "MG Hector",
+    brand: "mg",
+    price: 1800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1667819192463-b82b9bbaee84?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "MG Comet EV",
+    brand: "mg",
+    price: 700000,
+    bodyType: "hatchback",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1681283652877-ee8d94e772b2?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Nissan Magnite",
+    brand: "nissan",
+    price: 800000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1707510113695-02cf9e9c98ba?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Renault Kiger",
+    brand: "renault",
+    price: 850000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1647413689409-ae94cb22c4fe?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- PREMIUM OPTIONS ---
+  {
+    name: "BMW 3 Series",
+    brand: "bmw",
+    price: 4900000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Audi A4",
+    brand: "audi",
+    price: 4500000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1669818451873-455bda74d3cf?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mercedes-Benz C-Class",
+    brand: "mercedes",
+    price: 6000000,
+    bodyType: "sedan",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1695662050125-9658e0a3f8fe?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- MORE ELECTRIC VEHICLES ---
+  {
+    name: "BYD Atto 3",
+    brand: "byd",
+    price: 3400000,
+    bodyType: "suv",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1652158292437-0cfd6f83ec1e?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Ioniq 5",
+    brand: "hyundai",
+    price: 4600000,
+    bodyType: "suv",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1673849187321-df393df8f5f6?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Nexon",
+    brand: "tata",
+    price: 1200000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1619551180392-557fd310a790?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Harrier",
+    brand: "tata",
+    price: 1950000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1669818451873-455bda74d3cf?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Safari",
+    brand: "tata",
+    price: 2100000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Punch",
+    brand: "tata",
+    price: 750000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Altroz",
+    brand: "tata",
+    price: 850000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Tata Tiago",
+    brand: "tata",
+    price: 600000,
+    bodyType: "hatchback",
+    fuelType: "cng",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- MARUTI SUZUKI ---
+  {
+    name: "Maruti Suzuki Brezza",
+    brand: "maruti",
+    price: 1100000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Swift",
+    brand: "maruti",
+    price: 750000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Baleno",
+    brand: "maruti",
+    price: 850000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Ertiga",
+    brand: "maruti",
+    price: 1050000,
+    bodyType: "muv",
+    fuelType: "cng",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Grand Vitara",
+    brand: "maruti",
+    price: 1450000,
+    bodyType: "suv",
+    fuelType: "hybrid",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Dzire",
+    brand: "maruti",
+    price: 800000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Fronx",
+    brand: "maruti",
+    price: 950000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Maruti Suzuki Jimny",
+    brand: "maruti",
+    price: 1300000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1695662050125-9658e0a3f8fe?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- HYUNDAI ---
+  {
+    name: "Hyundai Creta",
+    brand: "hyundai",
+    price: 1500000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai i20",
+    brand: "hyundai",
+    price: 900000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Verna",
+    brand: "hyundai",
+    price: 1400000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Venue",
+    brand: "hyundai",
+    price: 1050000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Alcazar",
+    brand: "hyundai",
+    price: 1800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1549247796-5d8f09e9034b?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Exter",
+    brand: "hyundai",
+    price: 750000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1632245889029-e406faaa34cd?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- MAHINDRA ---
+  {
+    name: "Mahindra Scorpio-N",
+    brand: "mahindra",
+    price: 1800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1626847037657-fd3622613ce3?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra XUV700",
+    brand: "mahindra",
+    price: 2200000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra Thar",
+    brand: "mahindra",
+    price: 1500000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra Bolero Neo",
+    brand: "mahindra",
+    price: 1050000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1617056417730-84cc4ff6f0c4?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mahindra XUV 3XO",
+    brand: "mahindra",
+    price: 900000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- KIA ---
+  {
+    name: "Kia Seltos",
+    brand: "kia",
+    price: 1600000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1625217527288-93919c99650a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Kia Sonet",
+    brand: "kia",
+    price: 1100000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1652158292437-0cfd6f83ec1e?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Kia Carens",
+    brand: "kia",
+    price: 1400000,
+    bodyType: "muv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Kia EV6",
+    brand: "kia",
+    price: 6100000,
+    bodyType: "suv",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1673849187321-df393df8f5f6?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- TOYOTA ---
+  {
+    name: "Toyota Fortuner",
+    brand: "toyota",
+    price: 3800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Innova Hycross",
+    brand: "toyota",
+    price: 2600000,
+    bodyType: "muv",
+    fuelType: "hybrid",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1562141960-c1576a5f6b2e?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Urban Cruiser Taisor",
+    brand: "toyota",
+    price: 1050000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1715424843075-8025287f3b85?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Glanza",
+    brand: "toyota",
+    price: 800000,
+    bodyType: "hatchback",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1611245451610-8bd59d18b4ba?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Toyota Hilux",
+    brand: "toyota",
+    price: 3500000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1551522435-a13afa10f103?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- HONDA ---
+  {
+    name: "Honda City",
+    brand: "honda",
+    price: 1350000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Honda Amaze",
+    brand: "honda",
+    price: 850000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2023,
+    image:
+      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Honda Elevate",
+    brand: "honda",
+    price: 1450000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1631241996155-734a71387d8a?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- SKODA & VOLKSWAGEN ---
+  {
+    name: "Skoda Kushaq",
+    brand: "skoda",
+    price: 1400000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1707150003056-545e8b4cb4b9?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Skoda Slavia",
+    brand: "skoda",
+    price: 1350000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1688537574577-ffc46a6f195d?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Skoda Kodiaq",
+    brand: "skoda",
+    price: 3900000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Volkswagen Taigun",
+    brand: "volkswagen",
+    price: 1450000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1655821888788-6107699e173b?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Volkswagen Virtus",
+    brand: "volkswagen",
+    price: 1500000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1691081395914-419b489a6be3?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- MG & OTHERS ---
+  {
+    name: "MG Hector",
+    brand: "mg",
+    price: 1800000,
+    bodyType: "suv",
+    fuelType: "diesel",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1667819192463-b82b9bbaee84?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "MG Comet EV",
+    brand: "mg",
+    price: 700000,
+    bodyType: "hatchback",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1681283652877-ee8d94e772b2?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Nissan Magnite",
+    brand: "nissan",
+    price: 800000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1707510113695-02cf9e9c98ba?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Renault Kiger",
+    brand: "renault",
+    price: 850000,
+    bodyType: "suv",
+    fuelType: "petrol",
+    transmission: "manual",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1647413689409-ae94cb22c4fe?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- LUXURY SELECTION ---
+  {
+    name: "BMW 3 Series",
+    brand: "bmw",
+    price: 4900000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Audi A4",
+    brand: "audi",
+    price: 4500000,
+    bodyType: "sedan",
+    fuelType: "petrol",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Mercedes-Benz C-Class",
+    brand: "mercedes",
+    price: 6000000,
+    bodyType: "sedan",
+    fuelType: "diesel",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=600&auto=format&fit=crop&q=60",
+  },
+
+  // --- ELECTRIC VEHICLES (EV) ---
+  {
+    name: "BYD Atto 3",
+    brand: "byd",
+    price: 3400000,
+    bodyType: "suv",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&auto=format&fit=crop&q=60",
+  },
+  {
+    name: "Hyundai Ioniq 5",
+    brand: "hyundai",
+    price: 4600000,
+    bodyType: "suv",
+    fuelType: "electric",
+    transmission: "automatic",
+    year: 2024,
+    image:
+      "https://images.unsplash.com/photo-1669023026367-3c35bdf8bc9b?w=600&auto=format&fit=crop&q=60",
   },
   {
     name: "BalenoZ",
